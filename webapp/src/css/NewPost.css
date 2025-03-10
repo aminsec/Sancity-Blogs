@@ -1,0 +1,408 @@
+#title{
+    position: absolute;
+    left: 50px;
+    top: 90px;
+}
+
+#backBTN{
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#titleINP{
+    position: absolute;
+    left: 45px;
+    top: 150px;
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: rgb(255, 251, 179);
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+    
+}
+
+#titleINP:focus{
+    outline: none;
+    font-size: 20px;
+    place-content: none;
+}
+
+#titleINP:focus::placeholder{
+    color: transparent;
+}
+
+
+#blog-body-title{
+    position: absolute;
+    left: 55px;
+    top: 200px;
+}
+
+#blog-body{
+    position: absolute;
+    left: 45px;
+    top: 260px;
+    border-radius: 8px;
+    height: 300px;
+    width: 90%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#banner{
+    position: absolute;
+    left: 50px;
+    top: 600px;
+}
+
+#recomendedSize{
+    position: absolute;
+    left: 1145px;
+    top: 620px;
+}
+
+#new-bannerPic{
+    position: absolute;
+    top: 670px;
+    left: 30px;
+    width: 100%;
+    height: 28%;
+    overflow: hidden;
+}
+
+#image-bannerPic{
+    width: 1330px;
+    height: 181px;
+}
+
+#bannerUpload{
+    position: absolute;
+    top: 880px;
+    left: 85%;
+    color:transparent;  
+}
+
+#thumbnail-title{
+    position: absolute;
+    top: 920px;
+    padding-left: 45px;
+}
+
+#recomendedSize-thumbnail{
+    position: absolute;
+    top: 932px;
+    padding-left: 255px;
+}
+
+#thumbnail{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 1000px;
+    padding-left: 45px;
+}
+
+#upload-thumbnail{
+    position: absolute;
+    top: 1100px;
+    padding-left: 400px;
+}
+
+#tags{
+    position: absolute;
+    left: 50px;
+    top: 1200px;
+}
+
+#tagsINP{
+    position: absolute;
+    left: 45px;
+    top: 1260px;
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: rgb(255, 251, 179);
+    width: 90%;
+    height: 35px;
+    padding-left: 10px;
+}
+
+#options{
+    position: absolute;
+    left: 45px;
+    top: 1350px;
+}
+
+.switch{
+    position: absolute;
+    left: 45px;
+    top: 1430px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 100;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+#private-opt{
+    position: absolute;
+    left: 110px;
+    top: 1410px;
+}
+
+#switch{
+    position: absolute;
+    left: -5px;
+    top: 1475px;
+}
+
+#switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+
+#switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+#comments-opt{
+    position: absolute;
+    left: 110px;
+    top: 1455px;
+}
+
+
+#switch3{
+    position: absolute;
+    left: -55px;
+    top: 1520px;
+}
+
+#switch3 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+  }
+
+#switch3 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+#likes-opt{
+    position: absolute;
+    left: 110px;
+    top: 1500px;
+}
+
+#publishBTN{
+    position: absolute;
+    left: 660px;
+    top: 1610px;
+    background-color: black;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    border-style: solid;
+    color: white;
+    font-size: 18px;
+    transition-duration: 0.4s;  
+    cursor: pointer;
+}
+
+#publishBTN:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#blogAdded{
+    position: absolute;
+    left: 940px;
+    top: 20px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(108, 255, 149);
+    text-align: center;
+}
+
+#blogAddedFailed{
+    position: absolute;
+    left: 965px;
+    top: 20px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(255, 108, 108);
+    text-align: center;
+}
+
+#tempText{
+    position: absolute;
+    top: 1950px;
+    color: rgb(254, 281, 187);
+}
+
+
+

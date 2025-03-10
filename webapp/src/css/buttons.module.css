@@ -1,0 +1,25 @@
+.hoverBTN:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.messagesDivSent{
+    position: relative;
+    background-color: #60ff88;
+    align-self: flex-end;
+    margin-right: 50px;
+    max-width: 300px;
+    min-width: 25px;
+    width: fit-content;
+    white-space: normal;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.messagesTextSent{
+    position: absolute;
+    color: black;
+    font-size: 12.5px;
+}

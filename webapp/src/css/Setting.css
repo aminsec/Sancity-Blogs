@@ -1,0 +1,37 @@
+
+#left-panel{
+    position: fixed;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+}
+
+#setting-back{
+    position: absolute;
+    left: 350px;
+    top: 60px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+
+.panelArg{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: -2px;
+    width: 289px;
+    height: 100px;
+    border-style: solid;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.3s; 
+    cursor: pointer;
+}
+
+.panelArg:hover{
+    border-style: solid;
+    border-color: white;
+}

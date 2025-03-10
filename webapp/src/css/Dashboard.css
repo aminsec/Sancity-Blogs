@@ -1,0 +1,444 @@
+body {
+    margin:0;
+  }
+
+#titles{
+    position: absolute;
+    left: 4000px;
+    top: 40px
+}
+
+#line{
+    position: absolute;
+    top: -60px;
+    left: 180px;
+    width: 940px;
+    color: rgb(168, 168, 168);
+}
+
+
+#left-panel{
+    position: fixed;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+}
+
+#unseenNotifsCount-div {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 235px;
+    top: 365px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(0, 204, 255);
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex; /* Added to enable flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+#unseenNotifsCount {
+    color: rgb(0, 0, 0);
+    margin: 0; /* Remove default margins */
+}
+
+#username-dashboard-div{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#dashboard-username{
+    margin: 0; /* remove default margin from h3 */
+    color: white;
+}
+
+
+#profile-image-dashboard{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80px;
+    top: 20px;
+    border-radius: 50px;
+}
+
+.panelElements{
+    position: relative;
+    top: 90px;
+    color: aliceblue;
+    padding-left: 30px;
+    padding-block: 10px;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#elements-dashboard{
+    color: rgb(66,250,160);
+}
+
+#new-blog{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    background-color: rgb(132, 85, 236);
+    border-radius: 30px;
+    height: 60px;
+    border-style: none;
+    width: 200px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-align:left;
+    padding-left: 20px;
+    transition-duration: 0.4s;  
+}
+
+#new-blog:hover{
+    box-shadow: 0 12px 16px 0 rgba(255, 255, 255, 0.24),0 17px 50px 0 rgba(255, 255, 255, 0.19)
+}
+
+
+#dash-pen{
+    position: relative;
+    top: 545px;
+    left: 60px;
+    width: 60px;
+    height: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#panel-setting{
+    position: relative;
+    top:-50px;
+    left: 80px;
+    width: 35px;
+    height: 35px;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+
+#blogAddFailed{
+    position: absolute;
+    left: 690px;
+    top: 300px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(255, 120, 108);
+    text-align: center;
+}
+
+.blogs{
+    position: relative;
+    top: 120px;
+    left: 379px;
+    height: 329px;
+    width: 940px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+   
+}
+
+.blogs-blog-options-icon{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: 900px;
+    cursor: pointer;
+}
+
+.blogs-blogs-options-div{
+    position: absolute;
+    background-color: rgb(186, 186, 186);
+    width: 170px;
+    height: 35px;
+    left: 730px;
+    border-radius: 3px;
+    z-index: 1;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+
+.blogs-blogs-options-div:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+#blogs-magic-link{
+    background-color: transparent;
+    border-style: none;
+    padding-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.blogs:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+.blogs-title{
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.blogs-summary{
+    position: relative;
+    padding-left: 10px;
+    top: 100px;
+}
+
+.blogs-blog-image-container{
+    position: absolute;
+    left: 610px;
+    top:50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blogs-end{
+    position:absolute;
+    left: -198px;
+    width: 940px;
+    top: 140px;
+    color: rgb(168, 168, 168);
+}
+
+#blogs-preview-btn{
+    border-radius: 10px;
+    border-style: solid;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(125, 87, 228);
+    position: absolute;
+    top: 270px;
+    left: 295px;
+    cursor: pointer;
+    border-width: 20px;
+    border-color: black;
+    transition-duration: 0.2s; 
+}
+
+#blogs-preview-btn:hover{
+    background-color: rgb(151, 121, 233);
+    border-style: solid;
+}
+
+
+#blogs-edit-btn{
+    border-radius: 10px;
+    border-style: solid;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(125, 87, 228);
+    position: absolute;
+    top: 270px;
+    left: 370px;
+    cursor: pointer;
+    font-size: 16px;
+    border-width: 0px;
+    transition-duration: 0.2s; 
+}
+
+#blogs-edit-btn:hover{
+    background-color: rgb(151, 121, 233);
+    border-style: solid;
+}
+
+#blogs-delete-btn{
+    border-radius: 10px;
+    border-style: solid;
+    width: 70px;
+    height: 40px;
+    background-color: rgb(255, 91, 91);
+    position: absolute;
+    top: 270px;
+    left: 445px;
+    cursor: pointer;
+    font-size: 16px;
+    border-width: 0px;
+    transition-duration: 0.2s; 
+}
+
+#blogs-delete-btn:hover{
+    background-color: rgb(255, 110, 110);
+    border-style: solid;
+}
+
+#dash-blogs-createdAt{
+    position: absolute;
+    left: 835px;
+    top: 260px;
+    color: rgb(88, 88, 88);
+}
+
+#blogs-username{
+    position: absolute;
+    top: 262px;
+    left: 60px;
+}
+
+#blogs-username-pic{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 270px;
+    left: 10px;
+    border-radius: 50px;
+}
+
+#isPublicblog{
+    position: absolute;
+    left: 730px;
+    top: 275px;
+    border-radius: 8px;
+    background-color: rgb(138, 255, 150);
+    height: 30px;
+    width: 75px;
+    text-align: center;
+    
+}
+
+#isPublicText{
+    margin: 0;
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    padding-left: 14px;
+    top:6px
+}
+
+#noBlogs{
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}
+
+#wall{
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 1000px;
+    top: 0px;
+    z-index: 1;
+    opacity:0.5;
+}
+
+#question-box{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 40%;
+    height: 150px;
+    z-index: 1;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+}
+
+#DLT{
+    position: absolute;
+    background-color: rgb(22, 237, 108);
+    border-style: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    left: 320px;
+    top: 80px;
+    cursor: pointer;
+}
+
+#DLT:hover{
+    background-color: rgb(25, 255, 117);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#cancelDLT{
+    position: absolute;
+    background-color: rgb(114, 114, 114);
+    border-style: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    left: 150px;
+    top: 80px;
+    cursor: pointer;
+}
+
+#cancelDLT:hover{
+    background-color:  rgb(154, 154, 154);
+    border-style: solid;
+    border-width: 1px;
+}
+
+#question-box2{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 40%;
+    height: 170px;
+    z-index: 1;
+    top: 35%;
+    left: 30%;
+    text-align: center;
+}
+
+#blogLink{
+    width: 350px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+}
+
+#copyBLogLink{
+    width: 90px;
+    height: 35px;
+    background-color: rgb(122, 250, 120);  
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    transition-duration: 0.2s;
+}
+
+#copyBLogLink:hover{
+    background-color: rgb(41, 255, 37);
+}
+
+#magicLink-expires{
+    position: absolute;
+    padding-left: 10px;
+    font-size: 13px;
+    top: 130px;
+    color: rgb(141, 141, 141);
+}

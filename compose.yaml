@@ -1,0 +1,38 @@
+services:
+  node-api:
+    container_name: api
+    image: "aminsec/sancity:api"
+    networks:
+      vpcbr:
+        ipv4_address: 172.5.0.6
+  
+  react:
+    container_name: react
+    image: "aminsec/sancity:react"
+    networks:
+      vpcbr:
+        ipv4_address: 172.5.0.5
+
+  statics:
+    container_name: statics
+    image: "aminsec/sancity:statics"
+    networks:
+      vpcbr:
+         ipv4_address: 172.5.0.3
+
+  nginx:
+    container_name: nginx-proxy
+    image: "aminsec/sancity:proxy"
+    networks:
+      vpcbr:
+         ipv4_address: 172.5.0.10
+    ports:
+      - 8081:80
+
+networks:
+  vpcbr:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 172.5.0.0/16
+         gateway: 172.5.0.1

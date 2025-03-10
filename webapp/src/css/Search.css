@@ -1,0 +1,120 @@
+#search-input{
+    position: absolute;
+    top: 313px;
+    left: 185px;
+    text-align: center;
+    border-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border-style: solid;
+    width: 1068px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(254, 251, 187);
+}
+
+#search-input:focus{
+    outline: 0;
+}
+
+#search-input:focus::placeholder{
+    color: transparent;
+}
+
+body {
+    margin:0;
+  }
+
+
+.SearchPage-blogs{
+    position: relative;
+    top: 180px;
+    left: 250px;
+    height: 329px;
+    width: 940px;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+
+.SearchPage-blogs:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    
+}
+
+.SearchPage-blogs-title{
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+}
+
+.SearchPage-blogs-summary{
+    position: relative;
+    padding-left: 10px;
+    top: 100px;
+    color: rgb(117, 117, 117);
+    max-width: 520px;
+    word-spacing: 5px;
+}
+
+.SearchPage-blogs-image-container{
+    position: absolute;
+    left: 610px;
+    top:50px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.SearchPage-blogs-end{
+    position:absolute;
+    left: -198px;
+    width: 940px;
+    top: 140px;
+    color: rgb(168, 168, 168);
+}
+
+#SearchPage-blogs-createdAt{
+    position: absolute;
+    left: 815px;
+    top: 260px;
+    color: rgb(88, 88, 88);
+}
+
+#SearchPage-blogs-username{
+    position: absolute;
+    top: 262px;
+    left: 60px;
+}
+
+.SearchPage-blogs-username-a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.SearchPage-blogs-username-a:hover{
+    text-decoration: underline;
+}
+
+#SearchPage-blogs-username-pic{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 270px;
+    left: 10px;
+    border-radius: 50px;
+}
+
+#SearchPage-noBlogs{
+    position: absolute;
+    left: 570px;
+    top: 450px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(168, 168, 168);
+    text-align: center;
+}

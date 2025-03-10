@@ -1,0 +1,427 @@
+#blogs-blogOwner-profile{
+    position: absolute;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#blogs-blogOwner-username{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+#blogs-blogOwner-username{
+    color: inherit;
+    text-decoration: none;
+}
+
+#blogs-blogOwner-username:hover{
+    text-decoration: underline;
+}
+
+.blogs-end-options{
+    margin-top: 25px;
+}
+
+#BlogsPage-image{
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    top: 0;
+}
+
+#BlogsPage-back{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 30px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#temp{
+    position: absolute;
+    top: 400px;
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#BlogsPage-titleBlog{
+    position: relative;
+    text-align: center;
+    color: black;
+    top: 200px;
+}
+
+#line-of-under-title{
+    position: relative;
+    text-align: center;
+    color: rgb(110, 110, 110);
+    top: 110px;
+}
+
+#BlogsPage-body-content-div{
+    position: relative;
+    text-align:justify;
+    line-height: 30px;
+    word-spacing: 2px;
+    top: 250px;
+    left: 297px;
+    width: 856px;
+    height: 600px;
+    margin: 0px;
+}
+
+#BlogsPage-body-content{
+    position: relative;
+}
+
+#BlogsPage-comment{
+    position: relative;
+    width: 27px;
+    width: 27px;
+    left: 733px;
+    cursor: pointer;
+}
+
+#BlogsPage-like{
+    position: relative;
+    width: 25px;
+    left: 745px;
+    cursor: pointer;
+    
+}
+
+#BlogsPage-like-numbers{
+    position: relative;
+    width: 25px;
+    left: 94%;
+    top: -54px;
+}
+
+#BlogsPage-save{
+    position: relative;
+    width: 24px;
+    left: 645px;
+    cursor: pointer;
+}
+
+#BlogsPage-hr-comments{
+    position: relative;
+    transform: translate(-100px);
+    margin: 0px;
+}
+
+.BlogsPage-comment-div{
+    background-color: rgb(164, 225, 255);
+    border-radius: 20px;
+    position: relative;
+    /* border-style: solid; */
+    width: 1050px;
+    height: 130px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    transform: translate(-100px);
+}
+
+.BlogsPage-comment-userProfilePic{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    transform: translate(10px, 20px);
+    cursor: pointer;
+}
+
+.BlogsPage-comment-date{
+    position: absolute;
+    transform: translate(970px, -93px);
+    font-size: 14px;
+    color: rgb(103, 103, 103);
+}
+
+.BlogsPage-comment-userComment{
+    margin: 0px;
+    transform: translate(100px, -60px);
+    max-width: 750px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.BlogsPage-comment-like{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    transform: translate(898px, 90px);
+    cursor: pointer;
+}
+
+.BlogsPage-comment-likeNumbers{
+    position: absolute;
+    transform: translate(1008px, -5px);
+}
+
+.BlogsPage-comment-delete{
+    position: absolute;
+    border-style: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(910px, 48px);
+}
+
+.BlogsPage-comment-hr{
+    margin: 0px;
+    position: absolute;
+    width: 1010px;
+    position: absolute;
+    transform: translate(16px, 50px);
+}
+
+.BlogsPage-comment-user{
+    margin: 0px;
+    position: absolute;
+    font-size: 13px;
+    color: rgb(132, 132, 132);
+    font-weight: bold;
+    transform: translate(20px, 15px);
+}
+
+#BlogsPage-summarize{
+    background-color: black;
+    color: white;
+    width: 110px;
+    height: 38px;
+    border-style: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform: translate(500px, -5px);
+    transition-duration: 0.3s;
+}
+
+#BlogsPage-summarize:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+#summary-container{
+    width: 650px;
+    height: 600px;
+    border-radius: 10px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    left: 25%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#summary-close-icon{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#summary-title{
+    text-align: center;
+}
+
+#summary-loading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#summary-loading-text{
+    color: gray;
+}
+
+@keyframes l6 {to{transform: rotate(1turn)}}
+#summary-loading-icon {
+    width: 50px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 3px;
+    background: 
+      radial-gradient(farthest-side,#ffa516 95%,#0000) 50% 0/12px 12px no-repeat,
+      radial-gradient(farthest-side,#0000 calc(100% - 5px),#ffa516 calc(100% - 4px)) content-box;
+    animation: l6 2s infinite ;
+
+    position: relative;
+    left: 50px;  
+}
+
+.summary-resp-div{
+    background-color: rgb(100, 255, 167);
+    border-radius: 10px;
+    padding-bottom: 30px;
+    display: inline-block;
+    max-width: 600px;
+    border: 1px solid #000000; 
+    word-wrap: break-word;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    list-style: none; 
+}
+
+.summary-resp-div li::before {
+    content: '•';   
+    margin-right: 10px; 
+    padding-left: 5px;      /* Add bullet */
+  }
+
+.summary-note{
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-right: 10px;
+    margin: 0px;
+    text-indent: -1.2em;
+}
+
+.summary-resp-div, .summary-note {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease-out forwards;
+  }
+  
+
+@keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+#summary-error-div{
+    background-color: rgb(255, 71, 71);
+    border-radius: 20px;
+    display: inline-block;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc; 
+    word-wrap: break-word;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#summary-left-req{
+    color: #a7a7a7;
+    text-align: center;
+}
+
+#BlogsPage-comment-user-a{
+    margin: 0px;
+    position: absolute;
+    font-size: 13px;
+    color: inherit;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#add-comment-box-div{
+    position: fixed;
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 600px;
+    border-style: solid;
+    z-index: 2;
+    transform: translate(65%, 20%);
+}
+
+#close-comment-box{
+    position: fixed;
+    width: 35px;
+    height: 35px;
+    transform: translate(1580%, 20%);
+    cursor: pointer;
+}
+
+#add-comment-title{
+    position: fixed;
+    transform: translate(40%);
+}
+
+#add-comment-userPic{
+    position: fixed;
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+    transform: translate(40%, 120%);
+}
+
+#add-comment-textarea{
+    width: 350px;
+    height: 130px;
+    transform: translate(28%, 55%);
+    background-color: rgb(210, 255, 212);
+    resize: none;
+    border-style: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+#add-comment-submit{
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 73px;
+    height: 33px;
+    border-radius: 8px;
+    border-style: none;
+    transform: translate(702%, 260%);
+    cursor:pointer;
+}
+
+#add-comment-submit:hover{
+    background-color: rgb(47, 47, 47);
+}
+
+#add-comment-allowed-len{
+    position: fixed;
+    transform:translate(525px, 115px);
+    z-index: 1;
+    text-align: center;
+}
+
+#add-comment-error{
+    color: red;;
+    position: fixed;
+    font-size: 14px;
+    transform: translate(80%, 370%);
+}
+
+#load-more-comments{
+    position: relative;
+    background-color: black;
+    width: 95px;
+    height: 40px;
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(380%, 70%);
+    margin-bottom: 100px;
+}
+
+#load-more-comments:hover{
+    background-color: rgb(50, 50, 50);
+}
+

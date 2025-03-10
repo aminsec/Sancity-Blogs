@@ -1,0 +1,38 @@
+#about-liked-writer-About-text{
+    position: absolute;
+    font-size: 25px;
+    left: 22%;
+    color: rgb(0, 0, 0);
+    top: 220px;
+    cursor: pointer;  
+}
+
+#about-liked-writer-liked-blogs-text{
+    position: absolute;
+    font-size: 25px;
+    left: 33%;
+    color: rgb(126, 126, 126);
+    top: 220px;
+    cursor: pointer;  
+}
+
+#about-writer-about{
+    position: absolute;
+    /* transform: translate(80%, 280px); */
+}
+
+#about-bio-div{
+    text-align:justify;
+    line-height: 30px;
+    word-spacing: 2px;
+    height: 200px;
+    width: 900px;
+    transform: translate(15.3%, 255px);
+}
+
+#about-bio-hr{
+    position: absolute;
+    width: 1150px;
+    transform: translate(-17.2%);
+    
+}

@@ -1,0 +1,302 @@
+#chat-container{
+    background-color: rgb(0, 0, 0);
+    width: 390px;
+    height: 900px;
+    transform: translate(1425px, -15px);
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#chat-handle{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 130px;
+    transform: translate(-40px, 270px);
+    z-index: 1;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#chat-handle-text{
+    position: relative;
+    rotate: 270deg;
+    transform: translate(-50px, 0px);
+}
+
+#unseen-dot{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 20px;
+    transform: translate(22px, -40px);
+}
+
+#chat-header-text{
+    position: absolute;
+    color: white;
+    transform: translate(0px, -130px);
+    padding-left: 15px;
+}
+
+.contact{
+    position: relative;
+    width: 390px;
+    height: 90px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.contact:hover{
+    background-color: rgb(181, 200, 178);
+}
+
+.contact-profilePic{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+    cursor: pointer;
+}
+
+.contact-username{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    transform: translate(90px, 5px);
+}
+
+.contact-lastMessage{
+    position: absolute;
+    color: #888888;
+    font-size: 15px;
+    transform: translate(90px, 30px);
+}
+
+.contact-unseen-icon{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    background-color: aqua;
+    border-radius: 50px;
+    transform: translate(350px, 50px);
+}
+
+#search-username-btn{
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    background-color: white;
+    border-radius: 100px;
+    background-color: rgb(73, 255, 60);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: translate(320px, 495px);
+}
+
+#search-username-btn:hover{
+    background-color: rgb(113, 255, 120);
+}
+
+#search-username-btn-img{
+    width: 35px;
+    height: 35px;
+    transform: translate(4.5px, 5px);
+}
+
+#search-username-inp{
+    position: absolute;
+    width: 270px;
+    height: 34px;
+    transform: translate(20px, 500px);
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    outline: none;
+    padding-left: 10px;
+}
+
+#found-usernames-container{
+    position: absolute;
+    width: 260px;
+    height: 200px;
+    transform: translate(25px, 300px);
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.found-user-div{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(75, 75, 75);
+    cursor: pointer;
+    margin: 0px;
+}
+
+.found-user-div:hover{
+    background-color: rgb(191, 191, 191);
+}
+
+
+.found-user-username{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    transform: translate(75px, 1px);
+}
+
+.found-user-profile{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    transform: translate(3px, 5px);
+}
+
+.pv-container{
+    background-color: rgb(0, 0, 0);
+    width: 390px;
+    height: 900px;
+    transform: translate(0px, -133px);
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+#pv-hr{
+    position: absolute;
+    width: 370px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-190px, -110px);
+    z-index: 1;
+    border-style: none;
+}
+
+#messages-container{
+    position: absolute;
+    width: 380px;
+    height: 540px;
+    transform: translate(0px, 80px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+    flex-direction: column;
+    display: flex;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.send-message{
+    position: relative;
+    background-color: #60ff88;
+    align-self: flex-end;
+    max-width: 300px;
+    min-width: 25px;
+    width: fit-content;
+    white-space: normal;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: left;
+    float: right;
+}
+
+.received-message{
+    position: relative;
+    background-color: #ffffff;
+    align-self: flex-end;
+    max-width: 300px;
+    min-width: 25px;
+    width: fit-content;
+    white-space: normal;
+    word-wrap: break-word;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: left;
+    float: left;
+}
+
+#contact-profile{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    transform: translate(10px, 10px);
+    cursor: pointer;
+}
+
+#contact-username{
+    position:absolute;
+    color: white;
+    transform: translate(80px, 5px);
+    cursor: pointer;
+}
+
+#contact-username:hover{
+    text-decoration: underline;
+}
+
+#close-pv{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transform: translate(330px, 25px);
+}
+
+#message-inp{
+    position: absolute;
+    width: 360px;
+    height: 40px;
+    transform: translate(10px, 625px);
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    outline: none;
+    padding-left: 10px;
+    resize: none;
+    padding-top: 10px;
+}
+
+#send-message-btn{
+    z-index: 1;
+    width: 47px;
+    height: 47px;
+    border-radius: 20px;
+    background-color: rgb(73, 255, 60);
+    cursor: pointer;
+    transform: translate(333px, 627px);
+    border-style: none;
+    transition-duration: 0.4s;
+}
+
+#send-message-btn:hover{
+    background-color: rgb(140, 253, 132);
+}
+
+#send-message-img{
+    width: 28px;
+    height: 28px;
+    transform: translate(2px, 2px);
+}
+

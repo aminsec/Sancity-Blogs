@@ -1,0 +1,12 @@
+@keyframes abc {
+    from {transform: translate(0px);}
+    to {
+        transform: translate(500px);
+    }
+}
+
+#an {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}

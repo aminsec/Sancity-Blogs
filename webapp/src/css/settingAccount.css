@@ -1,0 +1,326 @@
+#profile-image-setting{
+    top: 20px;
+    position: relative;
+    left: 56%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+#username{
+    margin-left: 278px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+#change-profile-pic-btn{
+    position: relative;
+    top: -10px;
+    left: 840px;
+    color: transparent;
+    /* height: 35px;
+    width: 80px; */
+
+}
+
+#username-header{
+    position: relative;
+    left: 360px;
+    top: 10px
+}
+
+#newUsernameINP{
+    position: relative;
+    left: 350px;
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: rgb(255, 251, 179);
+    width: 1010px;
+    height: 35px;
+    padding-left: 10px;
+    transition-duration: 0.4s;
+}
+
+#newUsernameINP:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#newUsernameINP:focus{
+    outline: none;
+}
+
+
+#email-header{
+    position: relative;
+    left: 360px;
+    top: 10px
+}
+
+#emailINP{
+    position: relative;
+    left: 350px;
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    background-color: rgb(255, 251, 179);
+    width: 1010px;
+    height: 35px;
+    padding-left: 10px;
+    transition-duration: 0.4s;
+}
+
+#emailINP:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#emailINP:focus{
+    outline: none;
+}
+
+#bio-header{
+    position: absolute;
+    transform: translate(1220%, 0px);
+}
+
+#bio-textarea{
+    position: absolute;
+    transform: translate(-131%, 90px);
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    width: 500px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgb(255, 248, 153);
+}
+
+
+#btnDone{
+    position: relative;
+    left: -210px;
+    top: 290px;
+    height: 35px;
+    width: 80px;
+    border-radius: 8px;
+    border-style: solid;
+    background-color: black;
+    color: white;
+    font-weight: -10px;
+    cursor: pointer;
+}
+
+#dataUpdated{
+    position: absolute;
+    left: 1050px;
+    top: 40px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(108, 255, 149);
+    text-align: center;
+   
+}
+
+#dataUpdatedFalse{
+    position: absolute;
+    left: 1050px;
+    top: 40px;
+    border-color:rgb(255, 251, 179);
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 60px;
+    background-color: rgb(255, 123, 108);
+    text-align: center;
+}
+
+#sensitive-area-title{
+    position: absolute;
+    left: 360px;
+    top: 670px;
+}
+
+#sensitive-area-div{
+    position: absolute;
+    border-color: red;
+    border-style: solid;
+    border-width: 100%;
+    border-radius: 20px;
+    height: 130px;
+    width: 1010px;
+    left: 350px;
+    top: 750px;
+}
+
+#delete-account-info{
+    position: absolute;
+    left: 20px;
+    top:10px
+}
+
+#delete-account-btn{
+    position: absolute;
+    left: 780px;
+    top: 25px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#delete-account-btn:hover{
+    background-color: rgb(253, 88, 88);
+}
+
+#delete-account-btn:hover{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#confirm-to-delete-account-box{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+    width: 600px;
+    z-index: 1;
+    left: 30%;
+    top: 35%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#confirm-to-delete-account-text{
+    font-size: 20px;
+}
+
+#confirm-to-delete-account-btn{
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    left: 320px;
+    top: 90px
+}
+
+#confirm-to-delete-account-btn:hover{
+    background-color: rgb(253, 66, 66);
+}
+
+#confirm-to-delete-account-btn:hover{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#confirm-to-cancel-account-btn{
+    position: absolute;
+    background-color: rgb(137, 137, 137);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    left: 120px;
+    top: 90px
+}
+
+#confirm-to-cancel-account-btn:hover{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#confirm-to-cancel-account-btn:hover{
+    background-color: rgb(158, 158, 158);
+}
+
+#confirm-passwd-to-delete-account{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    height: 310px;
+    width: 600px;
+    z-index: 1;
+    left: 30%;
+    top: 35%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#confirm-passwd-account-text{
+    font-size: 20px;
+}
+
+#confirm-passwd-box{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border-style: solid;
+}
+
+#confirm-passwd-box2{
+    position: absolute;
+    left: 40px;
+    top: 130px;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border-style: solid;
+}
+
+#final-delete-account-btn{
+    background-color: red;
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+    font-size: 15px;
+    left: 225px;
+    top: 230px;
+    cursor: pointer;
+}
+
+#final-delete-account-btn:hover{
+    background-color: rgb(255, 68, 68);
+}
+
+
+#final-delete-account-btn:hover{
+    border-style: solid;
+    border-width: 1px;
+}
+
+#close-confrim-passwd{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 520px;
+    top: 10px;
+    cursor: pointer;
+}
+
+#deleteAccountErr{
+    position: relative;
+    color: red;
+    text-align: center;
+    top: 120px
+}

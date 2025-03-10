@@ -1,0 +1,30 @@
+
+#editPage-banner{
+    position: absolute;
+    left: 50px;
+    top: 600px;
+}
+
+#editPage-bannerPic{
+    position: absolute;
+    top: 670px;
+    left: 50px;
+    height: 190px;
+    width: 1300px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#editPage-bannerUpload{
+    position: absolute;
+    top: 880px;
+    left: 85%;
+    color:transparent;  
+}
+
+#tempText{
+    position: absolute;
+    top: 1350px;
+    color: rgb(254, 281, 187);
+}
+
