@@ -14,7 +14,7 @@ Sancity Blogs
 
 ---
 ## Sancity Blogs
-Sancitys Blog is a modern, microservices-based blogging platform with AI-powered features. Built with Node.js and React, it offers real-time chat, AI-generated summaries, and secure private blog sharing using magic links.
+Sancitys Blogs is a modern, microservices-based blogging platform with AI-powered features. Built with Node.js and React, it offers real-time chat, AI-generated summaries, and secure private blog sharing using magic links.
 
 ## Features
 
