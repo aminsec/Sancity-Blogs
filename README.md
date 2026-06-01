@@ -90,7 +90,7 @@ cd Sancity-Blogs/
 
 #### 3. Start the Application with Docker
 ```sh
-docker-compose up -d
+docker compose up -d
 ```
 
 #### 4. Access the Application
