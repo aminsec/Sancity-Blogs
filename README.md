@@ -90,6 +90,7 @@ cd Sancity-Blogs/
 
 #### 3. Start the Application with Docker
 ```sh
+docker compose build --no-cache
 docker compose up -d
 ```
 
