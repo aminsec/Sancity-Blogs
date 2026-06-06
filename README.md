@@ -84,7 +84,7 @@ echo "127.0.0.1 ws.sancity.blog" | sudo tee -a /etc/hosts
 
 #### 2. Clone the Repository
 ```sh
-git clone git@github.com:aminsec/Sancity-Blogs.git
+git clone https://github.com/aminsec/Sancity-Blogs.git
 cd Sancity-Blogs/
 ```
 
